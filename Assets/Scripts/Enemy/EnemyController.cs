@@ -18,6 +18,8 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyMesh.SetDestination(playerObj.position);
+        if (Vector3.Distance(transform.position, playerObj.transform.position) <= 10) {
+            enemyMesh.SetDestination(playerObj.position);
+        }
     }
 }

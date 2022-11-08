@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     void OnCollisionEnter(Collision other)
     {
 
-        if (other.gameObject.tag == "Zombie") {
+        if (other.gameObject.tag == "Enemy") {
             health = health - 5;
         }
 

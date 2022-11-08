@@ -245,7 +245,6 @@ GameObject:
   - component: {fileID: 9216868897597888146}
   - component: {fileID: 5906397267675697073}
   - component: {fileID: 5101968901293451371}
-  - component: {fileID: 4051346322970227147}
   m_Layer: 0
   m_Name: SmallZombie
   m_TagString: Enemy
@@ -383,18 +382,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerObj: {fileID: 0}
   enemyMesh: {fileID: 5906397267675697073}
---- !u!114 &4051346322970227147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5906397267675697075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e50e9c5a0212ad14e909854bf583c205, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7196847698330685798
 GameObject:
   m_ObjectHideFlags: 0

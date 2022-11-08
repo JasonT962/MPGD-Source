@@ -8,6 +8,7 @@ public class GunClass : ItemClass
     public GunType guntype;
     public float mag;
     public float ammo;
+    public Object Enemy;
 
     [SerializeField] private Transform hitEffectPrefab;
 
@@ -32,7 +33,11 @@ public class GunClass : ItemClass
 
             if (hitTransform.GetComponent<Enemy>() != null)
             {
-                Destroy(raycastHit.transform.gameObject);
+                raycastHit.transform.gameObject.GetComponent<EnemyScript>().health -= 35;
+
+                if (raycastHit.transform.gameObject.GetComponent<EnemyScript>().health <= 0) {
+                    Destroy(raycastHit.transform.gameObject);
+                }
             }
         }
     }

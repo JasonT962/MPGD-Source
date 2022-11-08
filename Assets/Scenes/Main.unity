@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -157,6 +157,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -209,6 +237,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -225,6 +265,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -277,6 +345,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -303,6 +383,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (26)
@@ -351,6 +439,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -359,6 +459,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -385,6 +489,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (4)
@@ -433,6 +545,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -441,6 +565,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -452,6 +580,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -504,6 +660,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -515,6 +683,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (3)
@@ -563,6 +739,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -571,6 +759,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -582,6 +774,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -630,10 +846,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -645,6 +869,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -697,6 +949,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -713,6 +977,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -761,10 +1049,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -791,6 +1087,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -843,6 +1167,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -854,6 +1190,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (30)
@@ -902,6 +1246,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -910,6 +1266,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -931,6 +1291,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -979,10 +1363,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -999,6 +1391,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (24)
@@ -1047,6 +1447,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -1055,6 +1467,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -1081,6 +1497,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1129,10 +1569,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -1149,6 +1597,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (6)
@@ -1197,6 +1653,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -1205,6 +1673,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -1216,6 +1688,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1264,10 +1760,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -1279,6 +1783,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (5)
@@ -1327,6 +1839,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -1335,6 +1859,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -1361,6 +1889,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1409,10 +1961,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -1424,6 +1984,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1472,10 +2056,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -1492,6 +2084,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -1544,6 +2164,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -1555,6 +2187,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1603,10 +2259,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -1623,6 +2287,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (1)
@@ -1671,6 +2343,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -1679,6 +2363,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -1715,6 +2403,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (37)
@@ -1763,6 +2459,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -1771,6 +2479,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -1782,6 +2494,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (38)
@@ -1830,6 +2550,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -1838,6 +2570,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -1869,6 +2605,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (27)
@@ -1917,6 +2661,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -1925,6 +2681,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -1951,6 +2711,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (7)
@@ -1999,6 +2767,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -2007,6 +2787,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -2119,6 +2903,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8936687107188737332, guid: be8876100db1cf04c979d8b1a227c346, type: 3}
   m_PrefabInstance: {fileID: 8936687107625684523}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &706464546
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706464541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.11, z: 0}
 --- !u!4 &735621018 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3539076363357323174, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -2147,6 +2945,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -2199,6 +3025,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -2220,6 +3058,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2268,10 +3130,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -2309,6 +3179,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie
@@ -2357,6 +3235,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -2365,6 +3255,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -2376,6 +3270,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -2428,6 +3350,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -2449,6 +3383,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -2501,6 +3463,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -2517,6 +3491,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -2569,6 +3571,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -2585,6 +3599,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2633,10 +3671,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -2795,6 +3841,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2843,10 +3913,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -2858,6 +3936,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -2910,6 +4016,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -2921,6 +4039,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -2971,6 +4117,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5906397267675697077, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3091,6 +4249,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -3143,6 +4329,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -3154,6 +4352,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -3206,6 +4432,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -3222,6 +4460,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (8)
@@ -3270,6 +4516,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -3278,6 +4536,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -3289,6 +4551,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -3341,6 +4631,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -3357,6 +4659,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -3409,6 +4739,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -3440,6 +4782,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -3492,6 +4862,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -3508,6 +4890,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (29)
@@ -3556,6 +4946,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -3564,6 +4966,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -3600,6 +5006,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -3650,6 +5084,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5906397267675697077, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3765,6 +5211,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3813,10 +5283,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -3828,6 +5306,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -3880,6 +5386,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -3896,6 +5414,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3944,10 +5486,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -3959,6 +5509,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -4011,6 +5589,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -4022,6 +5612,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4070,10 +5684,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -4105,6 +5727,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -4157,6 +5807,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -4178,6 +5840,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4226,10 +5912,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -4370,6 +6064,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4418,10 +6136,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -4433,6 +6159,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (25)
@@ -4481,6 +6215,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -4489,6 +6235,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -4510,6 +6260,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (31)
@@ -4558,6 +6316,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -4566,6 +6336,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -4590,7 +6364,7 @@ GameObject:
   - component: {fileID: 1542098682}
   m_Layer: 0
   m_Name: Zombies
-  m_TagString: Untagged
+  m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4692,6 +6466,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4740,10 +6538,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -4760,6 +6566,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (35)
@@ -4808,6 +6622,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -4816,6 +6642,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -4827,6 +6657,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4875,10 +6729,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -4905,6 +6767,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (33)
@@ -4953,6 +6823,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -4961,6 +6843,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -4987,6 +6873,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5035,10 +6945,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -5050,6 +6968,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -5102,6 +7048,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -5113,6 +7071,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5161,10 +7143,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -5196,6 +7186,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (32)
@@ -5244,6 +7242,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -5252,6 +7262,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -5268,6 +7282,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5316,10 +7354,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -5336,6 +7382,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (2)
@@ -5384,6 +7438,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -5392,6 +7458,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -5403,6 +7473,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (36)
@@ -5451,6 +7529,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -5459,6 +7549,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -5470,6 +7564,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5518,10 +7636,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -5543,6 +7669,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5591,10 +7741,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -5626,6 +7784,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (34)
@@ -5674,6 +7840,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -5682,6 +7860,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -5693,6 +7875,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -5745,6 +7955,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -5756,6 +7978,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5804,10 +8050,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -5824,6 +8078,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2688488175580095208, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475402206567837256, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675836410723016260, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4537739900189969850, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479303218290442816, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5872,10 +8150,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumZombie (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593826327858159057, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6570766792691623326, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 8452108443753437812, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3ac9d03cb7c5c47a66c4578c39f451, type: 3}
@@ -5892,6 +8178,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 14963534304369231, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654602877999423581, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3539076363357323164, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: m_Name
       value: BigZombie (28)
@@ -5940,6 +8234,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005394358072077000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6167254091627345101, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
       propertyPath: enemyMesh
       value: 
@@ -5948,6 +8254,10 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 706464543}
+    - target: {fileID: 7483819132994160565, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d24948500f1078a46992f7dd77a3529e, type: 3}
@@ -5969,6 +8279,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -6021,6 +8359,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d58ce432abc200419d53496a3766216, type: 3}
@@ -6032,6 +8382,34 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1542098682}
     m_Modifications:
+    - target: {fileID: 2409548331090471722, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668638587341725059, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680263925705591118, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737500783574232324, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053074647435968368, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5101968901293451371, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: playerObj
       value: 
@@ -6082,6 +8460,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5906397267675697077, guid: 5d58ce432abc200419d53496a3766216, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417014853993397671, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747386348235944340, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882575116778723259, guid: 5d58ce432abc200419d53496a3766216, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6206,11 +8596,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1712180271386472228, guid: c0fd744bd7951194893bcb4dbc103e60, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8451718
+      value: 0.84517187
       objectReference: {fileID: 0}
     - target: {fileID: 1712180271386472228, guid: c0fd744bd7951194893bcb4dbc103e60, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5099277
+      value: 0.50992763
       objectReference: {fileID: 0}
     - target: {fileID: 1712180271386472228, guid: c0fd744bd7951194893bcb4dbc103e60, type: 3}
       propertyPath: m_LocalRotation.y
@@ -6333,6 +8723,18 @@ PrefabInstance:
     - target: {fileID: 6446362712649915140, guid: 74c3e1648976f8346a514a757c1594d0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6446362712649915141, guid: 74c3e1648976f8346a514a757c1594d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6446362712705836564, guid: 74c3e1648976f8346a514a757c1594d0, type: 3}
+      propertyPath: m_Value
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6446362712705836566, guid: 74c3e1648976f8346a514a757c1594d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6446362713482584969, guid: 74c3e1648976f8346a514a757c1594d0, type: 3}
       propertyPath: m_AnchorMax.x
@@ -6579,6 +8981,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8936687106444404824, guid: be8876100db1cf04c979d8b1a227c346, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8936687107188737291, guid: be8876100db1cf04c979d8b1a227c346, type: 3}
       propertyPath: inventory
       value: 

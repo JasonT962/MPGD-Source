@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -58,6 +59,15 @@ public class PlayerController : MonoBehaviour
         {
             health = 100;
         }
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+
+        if (other.gameObject.tag == "Zombie") {
+            health = health - 5;
+        }
+
     }
 
     public void refreshItemHandle()

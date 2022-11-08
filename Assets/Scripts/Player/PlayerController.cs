@@ -8,15 +8,14 @@ public class PlayerController : MonoBehaviour
     public InventoryManager inventory;
 
     // Used for showing items in player hand
-    [SerializeField] private GameObject itemHandle;
-    private ItemClass currentItem = null;
-    private ItemClass itemInHandle = null;
+    public GameObject itemHandle;
+    public ItemClass currentItem = null;
+    public ItemClass itemInHandle = null;
 
     public float maxHealth = 100f;
     public float health = 100f;
     public float maxHunger = 100f;
     public float hunger = 100f;
-
 
     private void Start()
     {
@@ -33,9 +32,9 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (inventory.selectedItem != null)
+                if (inventory.selectedItem != null && inventory.selectedItem.canUse == true)
                 {
-                    inventory.selectedItem.Use(this);
+                    UseItem();
                 }
             }
         }
@@ -100,5 +99,32 @@ public class PlayerController : MonoBehaviour
             newModel.transform.localRotation = new Quaternion(0,0,0,0);
 
         }
+    }
+
+    public void UseItem()
+    {
+        inventory.selectedItem.Use(this);
+        inventory.selectedItem.canUse = false;
+        StartCoroutine(ResetItemCooldown());
+
+        if (inventory.selectedItem is MeleeClass) // For melee hitbox activation
+        {
+            StartCoroutine(MeleeAttack());
+        }
+    }
+
+    IEnumerator ResetItemCooldown()
+    {
+        ItemClass temp = inventory.selectedItem;
+        yield return new WaitForSeconds(temp.cooldown);
+        temp.canUse = true;
+    }
+
+    IEnumerator MeleeAttack()
+    {
+        MeleeClass temp = inventory.selectedItem as MeleeClass;
+        temp.isAttacking = true;
+        yield return new WaitForSeconds(temp.animationLength);
+        temp.isAttacking = false;
     }
 }

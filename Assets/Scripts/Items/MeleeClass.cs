@@ -7,6 +7,9 @@ public class MeleeClass : ItemClass
 {
     [Header("Melee")]
     public MeleeType meleetype;
+    public float animationLength;
+    public bool isAttacking = false;
+
     public enum MeleeType
     {
         onehanded,
@@ -15,7 +18,9 @@ public class MeleeClass : ItemClass
 
     public override void Use(PlayerController player)
     {
-        player.health -= 10;
+        GameObject weaponInHandle = player.itemHandle.transform.GetChild(0).gameObject;
+        Animator animation = weaponInHandle.GetComponent<Animator>();
+        animation.SetTrigger("Attack");
     }
 
     public override MeleeClass getMelee() { return this; }

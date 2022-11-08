@@ -33,9 +33,9 @@ public class GunClass : ItemClass
 
             if (hitTransform.GetComponent<Enemy>() != null)
             {
-                raycastHit.transform.gameObject.GetComponent<EnemyScript>().health -= 35;
+                raycastHit.transform.gameObject.GetComponent<Enemy>().health -= 35;
 
-                if (raycastHit.transform.gameObject.GetComponent<EnemyScript>().health <= 0) {
+                if (raycastHit.transform.gameObject.GetComponent<Enemy>().health <= 0) {
                     Destroy(raycastHit.transform.gameObject);
                 }
             }

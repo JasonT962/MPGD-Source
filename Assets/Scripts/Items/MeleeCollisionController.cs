@@ -13,9 +13,12 @@ public class MeleeCollisionController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (player.GetComponent<PlayerController>().currentItem.getMelee().isAttacking == true && other.tag == "Enemy")
+        if (player.GetComponent<PlayerController>().currentItem.getMelee() != null) // Makes sure player is equipping the weapon and collision is not from pickup
         {
-            GameObject.Destroy(other.gameObject);
+            if (player.GetComponent<PlayerController>().currentItem.getMelee().isAttacking == true && other.tag == "Enemy")
+            {
+                other.gameObject.GetComponent<Enemy>().health -= 50;
+            }
         }
     }
 }

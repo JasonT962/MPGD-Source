@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 5479303218290442819}
   - component: {fileID: 5479303218290442820}
   - component: {fileID: 6570766792691623326}
-  - component: {fileID: 542806482401402049}
+  - component: {fileID: 3406530479924527748}
   m_Layer: 0
   m_Name: MediumZombie
   m_TagString: Enemy
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerObj: {fileID: 0}
   enemyMesh: {fileID: 5479303218290442820}
---- !u!114 &542806482401402049
+--- !u!114 &3406530479924527748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5479303218290442822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7c125c4179c6411e808953869b1801c, type: 3}
+  m_Script: {fileID: 11500000, guid: e50e9c5a0212ad14e909854bf583c205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100

@@ -242,9 +242,9 @@ GameObject:
   - component: {fileID: 5906397267675697076}
   - component: {fileID: 5906397267675697079}
   - component: {fileID: 5906397267675697078}
-  - component: {fileID: 9216868897597888146}
   - component: {fileID: 5906397267675697073}
   - component: {fileID: 5101968901293451371}
+  - component: {fileID: 3278353049811027090}
   m_Layer: 0
   m_Name: SmallZombie
   m_TagString: Enemy
@@ -331,21 +331,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &9216868897597888146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5906397267675697075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7c125c4179c6411e808953869b1801c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  health: 100
-  healthBar: {fileID: 8245227158457258849}
 --- !u!195 &5906397267675697073
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -382,6 +367,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerObj: {fileID: 0}
   enemyMesh: {fileID: 5906397267675697073}
+--- !u!114 &3278353049811027090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5906397267675697075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e50e9c5a0212ad14e909854bf583c205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  health: 100
+  healthBar: {fileID: 8245227158457258849}
 --- !u!1 &7196847698330685798
 GameObject:
   m_ObjectHideFlags: 0

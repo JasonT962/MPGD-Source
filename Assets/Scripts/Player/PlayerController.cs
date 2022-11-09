@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -58,6 +59,13 @@ public class PlayerController : MonoBehaviour
         if (health > 100)
         {
             health = 100;
+        }
+
+        if (health <= 0)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            SceneManager.LoadScene(2);
         }
     }
 

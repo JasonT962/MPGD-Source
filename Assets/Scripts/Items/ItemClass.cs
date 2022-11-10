@@ -8,6 +8,8 @@ public class ItemClass : ScriptableObject
     public Sprite icon;
     public GameObject model;
     public bool isStackable;
+    public float cooldown;
+    public bool canUse = true;
 
     public virtual void Use(PlayerController player)
     {

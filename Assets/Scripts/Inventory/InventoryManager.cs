@@ -34,16 +34,9 @@ public class InventoryManager : MonoBehaviour
 
     private void Start()
     {
-        inventoryPanel.SetActive(false);
-
         slots = new GameObject[slotHolder.transform.childCount];
         items = new SlotClass[slots.Length];
-
-        hotbarSlots = new GameObject[hotbarSlotHolder.transform.childCount];
-        for (int i = 0; i < hotbarSlots.Length; i++)
-        {
-            hotbarSlots[i] = hotbarSlotHolder.transform.GetChild(i).gameObject;
-        }
+        hotbarSlots = new GameObject[5];
 
         // Set all slots
         for (int i = 0; i < items.Length; i++)
@@ -58,6 +51,10 @@ public class InventoryManager : MonoBehaviour
         {
             slots[i] = slotHolder.transform.GetChild(i).gameObject;
         }
+        for (int i = 0; i < hotbarSlots.Length; i++)
+        {
+            hotbarSlots[i] = slotHolder.transform.GetChild(i).gameObject;
+        }
 
         RefreshGUI();
         if (itemToAdd != null)
@@ -65,6 +62,8 @@ public class InventoryManager : MonoBehaviour
             Add(itemToAdd,1);
         }
         Remove(itemToRemove);
+
+        CloseInventory();
     }
 
     private void Update()
@@ -79,17 +78,11 @@ public class InventoryManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I)) {
             if (inventoryOpen == false)
             {
-                inventoryOpen = true;
-                inventoryPanel.SetActive(true);
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
+                OpenInventory();
             }
             else if (inventoryOpen == true)
             {
-                inventoryOpen = false;
-                inventoryPanel.SetActive(false);
-                Cursor.visible = false;
-                Cursor.lockState = CursorLockMode.Locked;
+                CloseInventory();
             }
         }
         if (Input.GetMouseButtonDown(0) && inventoryOpen == true) // When we click
@@ -126,7 +119,7 @@ public class InventoryManager : MonoBehaviour
             selectedSlot = 4;
         }
         hotbarSelector.transform.position = hotbarSlots[selectedSlot].transform.position;
-        selectedItem = items[selectedSlot + (hotbarSlots.Length * 3)].GetItem();
+        selectedItem = items[selectedSlot].GetItem();
     }
 
     #region Inventory Utils
@@ -154,34 +147,32 @@ public class InventoryManager : MonoBehaviour
                 slots[i].transform.GetChild(1).GetComponent<Text>().text = "";
             }
         }
-
-        RefreshHotbar();
     }
 
-    public void RefreshHotbar()
+    public void OpenInventory()
     {
-        for (int i = 0; i < hotbarSlots.Length; i++)
+        for (int i = 5; i < slots.Length; i++)
         {
-            try
-            {
-                hotbarSlots[i].transform.GetChild(0).GetComponent<Image>().enabled = true;
-                hotbarSlots[i].transform.GetChild(0).GetComponent<Image>().sprite = items[i + (hotbarSlots.Length * 3)].GetItem().icon;
-                if (items[i + (hotbarSlots.Length * 3)].GetItem().isStackable)
-                {
-                    hotbarSlots[i].transform.GetChild(1).GetComponent<Text>().text = items[i + (hotbarSlots.Length * 3)].GetAmount().ToString();
-                }
-                else
-                {
-                    hotbarSlots[i].transform.GetChild(1).GetComponent<Text>().text = "";
-                }
-            }
-            catch
-            {
-                hotbarSlots[i].transform.GetChild(0).GetComponent<Image>().sprite = null;
-                hotbarSlots[i].transform.GetChild(0).GetComponent<Image>().enabled = false;
-                hotbarSlots[i].transform.GetChild(1).GetComponent<Text>().text = "";
-            }
+            slots[i].SetActive(true);
         }
+
+        inventoryOpen = true;
+        inventoryPanel.SetActive(true);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void CloseInventory()
+    {
+        for (int i = 5; i < slots.Length; i++)
+        {
+            slots[i].SetActive(false);
+        }
+
+        inventoryOpen = false;
+        inventoryPanel.SetActive(false);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public bool Add(ItemClass item, int amount)

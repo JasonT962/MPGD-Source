@@ -10,6 +10,7 @@ public class ItemPickUp : MonoBehaviour
 
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         pickUpMessage.SetActive(false);
     }
 

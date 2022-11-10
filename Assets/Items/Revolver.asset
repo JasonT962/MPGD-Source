@@ -16,6 +16,8 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 8efff23095c972642a17d7ab1e640837, type: 3}
   model: {fileID: 6237706444047142509, guid: 09855e20362958440afa11cf01345f98, type: 3}
   isStackable: 0
+  cooldown: 0.3
+  canUse: 1
   guntype: 0
   mag: 0
   ammo: 0

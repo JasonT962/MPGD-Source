@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TimeController : MonoBehaviour
 {
@@ -12,9 +13,13 @@ public class TimeController : MonoBehaviour
     [SerializeField]
     private float startHour;
 
+    [SerializeField] private int startDay = 1;
+
     [SerializeField]
     private TextMeshProUGUI timeText;
-    
+
+    [SerializeField] private TextMeshProUGUI dayCounterText;
+
     [SerializeField]
     private Light sunLight;
 
@@ -42,11 +47,14 @@ public class TimeController : MonoBehaviour
     [SerializeField]
     private float maxMoonLightIntensity;
 
-    private DateTime currentTime;
+    public DateTime currentTime;
 
     private TimeSpan sunriseTime;
 
     private TimeSpan sunsetTime;
+
+    private int dayCounter;
+    private bool changed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +63,8 @@ public class TimeController : MonoBehaviour
 
         sunriseTime = TimeSpan.FromHours(sunriseHour);
         sunsetTime = TimeSpan.FromHours(sunsetHour);
+
+        dayCounter = startDay;
     }
 
     // Update is called once per frame
@@ -63,6 +73,14 @@ public class TimeController : MonoBehaviour
         UpdateTimeOfDay();
         RotateSun();
         UpdateLightSettings();
+        UpdateDay();
+
+        if (dayCounter == 10)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            SceneManager.LoadScene(3);
+        }
     }
     private void UpdateTimeOfDay()
     {
@@ -72,6 +90,21 @@ public class TimeController : MonoBehaviour
         {
             timeText.text = currentTime.ToString ("HH:mm");
         }
+    }
+
+    private void UpdateDay()
+    {
+        if (timeText.text == "00:00" && changed == false)
+        {
+            dayCounter += 1;
+            changed = true;
+        }
+        else if (timeText.text != "00:00")
+        {
+            changed = false;
+        }
+
+        dayCounterText.text = "Day: " + dayCounter;
     }
 
     private void RotateSun()

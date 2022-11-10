@@ -1,6 +1,7 @@
 Gameplay Instructions:
 
 [I] = Open inventory
+
 1 - 5 = select which item you want from hot bar
 
 Hold right click = enter aim mode

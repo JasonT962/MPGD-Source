@@ -11,8 +11,4 @@ Mouse click when holding an item = use item
 
 Goal:
 
-Survive for 10 days without dying. You will take damage from zombies as well as from your hunger so make sure to keep your hunger bar up.
-
-Tips:
-
-You will slowly regenerate your health if your hunger is above 50%.
+Zombies will spawn in waves, your goal is to survive for 10 waves. Use your ranged or melee weapon to kill zombies. You can upgrade your weapons in the shop

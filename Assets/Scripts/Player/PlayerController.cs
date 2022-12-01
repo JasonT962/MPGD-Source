@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     public float maxHealth = 100f;
     public float health = 100f;
 
+    public static int money = 0;
+
     private void Start()
     {
         Cursor.visible = false;

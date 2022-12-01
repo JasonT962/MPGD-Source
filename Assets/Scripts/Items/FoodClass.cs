@@ -6,13 +6,11 @@ public class FoodClass : ItemClass
 {
     [Header("Food")]
     public float healthAdded;
-    public float hungerAdded;
 
     public override void Use(PlayerController player)
     {
         Debug.Log("Ate food");
         player.health += healthAdded;
-        player.hunger += hungerAdded;
         player.inventory.Remove(this);
     }
 

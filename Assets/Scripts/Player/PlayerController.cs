@@ -15,8 +15,6 @@ public class PlayerController : MonoBehaviour
 
     public float maxHealth = 100f;
     public float health = 100f;
-    public float maxHunger = 100f;
-    public float hunger = 100f;
 
     private void Start()
     {
@@ -41,27 +39,6 @@ public class PlayerController : MonoBehaviour
         }
 
         // Update values over time
-        if (hunger >= 50) // If hunger >= 50, increase health by 1 every second
-        {
-            health += Time.deltaTime * 1f;
-        }
-
-        if (hunger > 0)
-        {
-            hunger -= Time.deltaTime * 0.166f;
-        }
-
-        if (hunger > 100)
-        {
-            hunger = 100;
-        }
-
-        if (hunger <= 0)
-        {
-            hunger = 0;
-            health -= Time.deltaTime * 1f;
-        }
-
         if (health > 100)
         {
             health = 100;

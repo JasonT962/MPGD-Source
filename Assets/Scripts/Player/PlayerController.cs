@@ -52,13 +52,17 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
-
-        if (other.gameObject.tag == "Enemy") {
-            health = health - 5;
+        if (other.gameObject.tag == "Enemy")
+        {
+            TakeDamage(5);
         }
+    }
 
+    void TakeDamage(int damage)
+    {
+        health = health - damage;
     }
 
     public void refreshItemHandle()

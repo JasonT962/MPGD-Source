@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public InventoryManager inventory;
+    private Animator animator;
 
     // Used for showing items in player hand
     public GameObject itemHandle;
@@ -15,6 +16,11 @@ public class PlayerController : MonoBehaviour
 
     public float maxHealth = 100f;
     public float health = 100f;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     private void Start()
     {
@@ -52,7 +58,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "Enemy")
         {
@@ -105,6 +111,7 @@ public class PlayerController : MonoBehaviour
         if (inventory.selectedItem is MeleeClass) // For melee hitbox activation
         {
             StartCoroutine(MeleeAttack());
+            animator.SetTrigger("MeleeAttack");
         }
     }
 

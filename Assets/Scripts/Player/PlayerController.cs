@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     public float maxHunger = 100f;
     public float hunger = 100f;
 
+
     private void Start()
     {
         Cursor.visible = false;

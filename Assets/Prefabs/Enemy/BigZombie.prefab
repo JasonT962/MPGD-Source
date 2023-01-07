@@ -37,7 +37,7 @@ Transform:
   - {fileID: 3257423413904146527}
   - {fileID: 7515950981485008647}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7515950981099451152
 MeshFilter:
@@ -100,9 +100,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2
+  m_Height: 2.6688352
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.33441758, z: 0}
 --- !u!114 &7515950981099451167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,6 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 200
   health: 200
+  isDead: 0
   healthBar: {fileID: 7515950982183365153}
   animator: {fileID: 0}
 --- !u!195 &7515950981099451165

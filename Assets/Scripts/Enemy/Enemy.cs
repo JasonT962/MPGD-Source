@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 
     public float maxHealth = 100f;
     public float health = 100f;
+    public bool isDead = false;
 
     [SerializeField] private Slider healthBar;
     public Animator animator;
@@ -24,9 +25,19 @@ public class Enemy : MonoBehaviour
         healthBar.value = health;
 
         if (health <= 0) {
-            StartCoroutine(EnemyDeath());
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        if (isDead == false)
+        {
+            isDead = true;
             PlayerController.money += 100;
             PlayerGUIController.RefreshMoney();
+            this.GetComponent<CapsuleCollider>().enabled = false;
+            StartCoroutine(EnemyDeath());
         }
     }
 

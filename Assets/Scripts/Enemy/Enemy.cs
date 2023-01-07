@@ -23,8 +23,6 @@ public class Enemy : MonoBehaviour
         healthBar.value = health;
 
         if (health <= 0) {
-            PlayerController.money += 100;
-            PlayerGUIController.RefreshMoney();
             Destroy(gameObject);
         }
     }

@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 
     public float maxHealth = 100f;
     public float health = 100f;
+
     [SerializeField] private Slider healthBar;
     public Animator animator;
 
@@ -24,6 +25,8 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0) {
             StartCoroutine(EnemyDeath());
+            PlayerController.money += 100;
+            PlayerGUIController.RefreshMoney();
         }
     }
 

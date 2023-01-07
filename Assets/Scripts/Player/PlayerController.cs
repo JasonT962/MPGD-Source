@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+
     private void Start()
     {
         Cursor.visible = false;

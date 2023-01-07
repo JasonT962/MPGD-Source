@@ -117,6 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerObj: {fileID: 0}
   enemyMesh: {fileID: 7515950981099451165}
+  spawn: {fileID: 0}
 --- !u!114 &7515950981099451164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,6 +134,7 @@ MonoBehaviour:
   health: 200
   healthBar: {fileID: 7515950982183365153}
   animator: {fileID: 0}
+  spawn: {fileID: 0}
 --- !u!195 &7515950981099451165
 NavMeshAgent:
   m_ObjectHideFlags: 0

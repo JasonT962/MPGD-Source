@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 6745989362803590316}
   m_Layer: 0
   m_Name: FastZombie
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -430,6 +430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerObj: {fileID: 0}
   enemyMesh: {fileID: 6745989362803590316}
+  spawn: {fileID: 0}
 --- !u!114 &6745989362803590317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,6 +446,8 @@ MonoBehaviour:
   maxHealth: 100
   health: 100
   healthBar: {fileID: 6745989363016217587}
+  animator: {fileID: 0}
+  spawn: {fileID: 0}
 --- !u!136 &6745989362803590312
 CapsuleCollider:
   m_ObjectHideFlags: 0

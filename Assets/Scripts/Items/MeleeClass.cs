@@ -18,7 +18,9 @@ public class MeleeClass : ItemClass
 
     public override void Use(PlayerController player)
     {
-
+        GameObject weaponInHandle = player.itemHandle.transform.GetChild(0).gameObject;
+        Animator animation = weaponInHandle.GetComponent<Animator>();
+        animation.SetTrigger("Attack");
     }
 
     public override MeleeClass getMelee() { return this; }

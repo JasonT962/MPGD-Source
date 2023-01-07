@@ -8,7 +8,6 @@ public class Enemy : MonoBehaviour
 
     public float maxHealth = 100f;
     public float health = 100f;
-
     [SerializeField] private Slider healthBar;
 
     // Start is called before the first frame update

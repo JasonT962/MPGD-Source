@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
@@ -10,6 +11,9 @@ public class Enemy : MonoBehaviour
     public float health = 100f;
     public bool isDead = false;
 
+    GameController gamecontroller;
+    public Spawner spawn;
+
     [SerializeField] private Slider healthBar;
     public Animator animator;
 
@@ -17,6 +21,9 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
+
+        gamecontroller = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        spawn = gamecontroller.GetComponentInChildren<Spawner>();
     }
 
     // Update is called once per frame
@@ -24,8 +31,11 @@ public class Enemy : MonoBehaviour
     {
         healthBar.value = health;
 
-        if (health <= 0) {
-            Die();
+        if (health <= 0)
+        {
+            gameObject.tag = "Untagged";
+            gameObject.transform.GetChild(1).gameObject.SetActive(false);
+            StartCoroutine(EnemyDeath());
         }
     }
 
@@ -37,14 +47,16 @@ public class Enemy : MonoBehaviour
             PlayerController.money += 100;
             PlayerGUIController.RefreshMoney();
             this.GetComponent<CapsuleCollider>().enabled = false;
-            StartCoroutine(EnemyDeath());
+            //StartCoroutine(EnemyDeath());
         }
     }
 
     IEnumerator EnemyDeath()
     {
         animator.SetTrigger("Die");
+        gameObject.GetComponent<NavMeshAgent>().enabled = false;
         yield return new WaitForSeconds(5);
+        //spawn.EnemyKilled();
         Destroy(gameObject);
     }
 

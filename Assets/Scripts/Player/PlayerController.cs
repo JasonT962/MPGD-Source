@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        money = 0;
     }
 
     // Update is called once per frame
@@ -29,7 +30,7 @@ public class PlayerController : MonoBehaviour
     {
         refreshItemHandle();
 
-        if (inventory.inventoryOpen == false)
+        if (inventory.inventoryOpen == false & Cursor.visible == false & Cursor.lockState == CursorLockMode.Locked)
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -51,6 +52,21 @@ public class PlayerController : MonoBehaviour
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene(2);
+        }
+
+        // Tab key lets you use the mouse
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            if (Cursor.visible == false & Cursor.lockState == CursorLockMode.Locked)
+            { 
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else
+            {
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+            }
         }
     }
 

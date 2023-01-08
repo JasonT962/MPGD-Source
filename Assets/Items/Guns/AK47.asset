@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: AK47
   icon: {fileID: 0}
-  model: {fileID: 0}
+  model: {fileID: 451676120301947684, guid: 87d52b1711d4c0143a8591aec3e8aacb, type: 3}
   isStackable: 0
-  cooldown: 0.3
+  cooldown: 0.2
   canUse: 1
   guntype: 0
   damage: 15

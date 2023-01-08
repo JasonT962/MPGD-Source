@@ -25,11 +25,13 @@ public class MeleeCollisionController : MonoBehaviour
 
     private void Update()
     {
-        if (player.GetComponent<PlayerController>().currentItem.getMelee() != null)
-        {
-            if (player.GetComponent<PlayerController>().currentItem.getMelee().isAttacking == false)
+        if (player.GetComponent<PlayerController>().currentItem != null) {
+            if (player.GetComponent<PlayerController>().currentItem.getMelee() != null)
             {
-                hitList.Clear();
+                if (player.GetComponent<PlayerController>().currentItem.getMelee().isAttacking == false)
+                {
+                    hitList.Clear();
+                }
             }
         }
     }

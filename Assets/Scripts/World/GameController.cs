@@ -19,6 +19,9 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            spawner1.Spawn("fast");
+        }
     }
 }

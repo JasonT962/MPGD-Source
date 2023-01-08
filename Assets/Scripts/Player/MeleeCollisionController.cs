@@ -17,7 +17,7 @@ public class MeleeCollisionController : MonoBehaviour
                 if (!hitList.Contains(other.gameObject))
                 {
                     hitList.Add(other.gameObject);
-                    other.gameObject.GetComponent<Enemy>().health -= 50;
+                    other.gameObject.GetComponent<Enemy>().health -= player.GetComponent<PlayerController>().currentItem.getMelee().damage;
                 }
             }
         }

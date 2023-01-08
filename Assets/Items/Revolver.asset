@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Revolver
   icon: {fileID: 21300000, guid: 8efff23095c972642a17d7ab1e640837, type: 3}
-  model: {fileID: 6237706444047142509, guid: 09855e20362958440afa11cf01345f98, type: 3}
+  model: {fileID: 8485040935846051236, guid: dab3029b98e111a4ea5dfc9c0a04932d, type: 3}
   isStackable: 0
   cooldown: 0.3
   canUse: 1
   guntype: 0
   mag: 0
   ammo: 0
+  Enemy: {fileID: 0}
   hitEffectPrefab: {fileID: 613433886817584985, guid: 2d2efc6f29337034198492ea2d1d7a5d, type: 3}

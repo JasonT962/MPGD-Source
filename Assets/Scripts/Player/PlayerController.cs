@@ -46,6 +46,18 @@ public class PlayerController : MonoBehaviour
                     UseItem();
                 }
             }
+
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                if (inventory.selectedItem != null && inventory.selectedItem.getMelee() != null)
+                {
+                    MeleeClass meleeWeapon = inventory.selectedItem as MeleeClass;
+                    if (meleeWeapon.canUseAbility == true)
+                    {
+                        UseAbility();
+                    }
+                }
+            }
         }
 
         // Update values over time
@@ -115,8 +127,8 @@ public class PlayerController : MonoBehaviour
             }
             GameObject newModel = Instantiate(inventory.selectedItem.model);
             newModel.transform.parent = itemHandle.transform;
-            newModel.transform.localPosition = new Vector3(0,0,0);
-            newModel.transform.localRotation = new Quaternion(0,0,0,0);
+            newModel.transform.localPosition = inventory.selectedItem.model.transform.localPosition;
+            newModel.transform.localRotation = inventory.selectedItem.model.transform.localRotation;
 
         }
     }
@@ -139,6 +151,21 @@ public class PlayerController : MonoBehaviour
         ItemClass temp = inventory.selectedItem;
         yield return new WaitForSeconds(temp.cooldown);
         temp.canUse = true;
+    }
+
+    public void UseAbility() // For melee weapons only
+    {
+        MeleeClass temp = inventory.selectedItem as MeleeClass;
+        temp.UseAbility(this);
+        temp.canUseAbility = false;
+        StartCoroutine(ResetAbilityCooldown());
+    }
+
+    IEnumerator ResetAbilityCooldown() // For melee weapons only
+    {
+        MeleeClass temp = inventory.selectedItem as MeleeClass;
+        yield return new WaitForSeconds(temp.abilityCooldown);
+        temp.canUseAbility = true;
     }
 
     IEnumerator MeleeAttack()

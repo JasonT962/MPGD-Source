@@ -26,7 +26,7 @@ public class MeleeClass : ItemClass
 
     }
 
-    public void UseAbility(PlayerController player)
+    public virtual void UseAbility(PlayerController player)
     {
         
     }

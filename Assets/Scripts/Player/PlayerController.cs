@@ -37,14 +37,36 @@ public class PlayerController : MonoBehaviour
     {
         refreshItemHandle();
 
-        if (inventory.inventoryOpen == false & Cursor.visible == false & Cursor.lockState == CursorLockMode.Locked)
+        if (inventory.inventoryOpen == false & Cursor.visible == false & Cursor.lockState == CursorLockMode.Locked) // If player does not have any GUI open
         {
-            if (Input.GetMouseButtonDown(0))
+            if (inventory.selectedItem != null && inventory.selectedItem.canUse == true)
             {
-                if (inventory.selectedItem != null && inventory.selectedItem.canUse == true)
+                if (inventory.selectedItem.getGun() != null) // If selected weapon is a gun
                 {
-                    UseItem();
+                    GunClass gunWeapon = inventory.selectedItem as GunClass;
+                    if (gunWeapon.fullAuto == true)
+                    {
+                        if (Input.GetMouseButton(0))
+                        {
+                            UseItem();
+                        }
+                    }
+                    else
+                    {
+                        if (Input.GetMouseButtonDown(0))
+                        {
+                            UseItem();
+                        }
+                    }
                 }
+                else
+                {
+                    if (Input.GetMouseButtonDown(0))
+                    {
+                            UseItem();
+                    }
+                }
+
             }
 
             if (Input.GetKeyDown(KeyCode.F))

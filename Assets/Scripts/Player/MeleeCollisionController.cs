@@ -23,9 +23,9 @@ public class MeleeCollisionController : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void Update()
     {
-        if (player.GetComponent<PlayerController>().currentItem.getMelee() != null) // Makes sure player is equipping the weapon and collision is not from pickup
+        if (player.GetComponent<PlayerController>().currentItem.getMelee() != null)
         {
             if (player.GetComponent<PlayerController>().currentItem.getMelee().isAttacking == false)
             {

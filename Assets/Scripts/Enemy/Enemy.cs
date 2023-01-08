@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
         if (isDead == false)
         {
             isDead = true;
-            PlayerController.money += 100;
+            PlayerController.money += 10;
             PlayerGUIController.RefreshMoney();
             this.GetComponent<CapsuleCollider>().enabled = false;
             StartCoroutine(EnemyDeath());

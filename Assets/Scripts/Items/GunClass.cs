@@ -6,9 +6,8 @@ public class GunClass : ItemClass
 {
     [Header("Gun")]
     public GunType guntype;
-    public float mag;
-    public float ammo;
-    public Object Enemy;
+    public float damage;
+    public bool fullAuto;
 
     [SerializeField] private Transform hitEffectPrefab;
 
@@ -33,7 +32,7 @@ public class GunClass : ItemClass
 
             if (hitTransform.GetComponent<Enemy>() != null)
             {
-                raycastHit.transform.gameObject.GetComponent<Enemy>().health -= 35;
+                raycastHit.transform.gameObject.GetComponent<Enemy>().health -= damage;
             }
         }
     }

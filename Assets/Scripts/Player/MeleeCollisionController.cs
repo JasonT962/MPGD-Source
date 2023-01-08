@@ -17,19 +17,21 @@ public class MeleeCollisionController : MonoBehaviour
                 if (!hitList.Contains(other.gameObject))
                 {
                     hitList.Add(other.gameObject);
-                    other.gameObject.GetComponent<Enemy>().health -= 50;
+                    other.gameObject.GetComponent<Enemy>().health -= player.GetComponent<PlayerController>().currentItem.getMelee().damage;
                 }
             }
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void Update()
     {
-        if (player.GetComponent<PlayerController>().currentItem.getMelee() != null) // Makes sure player is equipping the weapon and collision is not from pickup
-        {
-            if (player.GetComponent<PlayerController>().currentItem.getMelee().isAttacking == false)
+        if (player.GetComponent<PlayerController>().currentItem != null) {
+            if (player.GetComponent<PlayerController>().currentItem.getMelee() != null)
             {
-                hitList.Clear();
+                if (player.GetComponent<PlayerController>().currentItem.getMelee().isAttacking == false)
+                {
+                    hitList.Clear();
+                }
             }
         }
     }

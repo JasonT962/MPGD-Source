@@ -37,13 +37,47 @@ public class PlayerController : MonoBehaviour
     {
         refreshItemHandle();
 
-        if (inventory.inventoryOpen == false & Cursor.visible == false & Cursor.lockState == CursorLockMode.Locked)
+        if (inventory.inventoryOpen == false & Cursor.visible == false & Cursor.lockState == CursorLockMode.Locked) // If player does not have any GUI open
         {
-            if (Input.GetMouseButtonDown(0))
+            if (inventory.selectedItem != null && inventory.selectedItem.canUse == true)
             {
-                if (inventory.selectedItem != null && inventory.selectedItem.canUse == true)
+                if (inventory.selectedItem.getGun() != null) // If selected weapon is a gun
                 {
-                    UseItem();
+                    GunClass gunWeapon = inventory.selectedItem as GunClass;
+                    if (gunWeapon.fullAuto == true)
+                    {
+                        if (Input.GetMouseButton(0))
+                        {
+                            UseItem();
+                        }
+                    }
+                    else
+                    {
+                        if (Input.GetMouseButtonDown(0))
+                        {
+                            UseItem();
+                        }
+                    }
+                }
+                else
+                {
+                    if (Input.GetMouseButtonDown(0))
+                    {
+                            UseItem();
+                    }
+                }
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                if (inventory.selectedItem != null && inventory.selectedItem.getMelee() != null)
+                {
+                    MeleeClass meleeWeapon = inventory.selectedItem as MeleeClass;
+                    if (meleeWeapon.canUseAbility == true)
+                    {
+                        UseAbility();
+                    }
                 }
             }
         }
@@ -115,8 +149,8 @@ public class PlayerController : MonoBehaviour
             }
             GameObject newModel = Instantiate(inventory.selectedItem.model);
             newModel.transform.parent = itemHandle.transform;
-            newModel.transform.localPosition = new Vector3(0,0,0);
-            newModel.transform.localRotation = new Quaternion(0,0,0,0);
+            newModel.transform.localPosition = inventory.selectedItem.model.transform.localPosition;
+            newModel.transform.localRotation = inventory.selectedItem.model.transform.localRotation;
 
         }
     }
@@ -139,6 +173,21 @@ public class PlayerController : MonoBehaviour
         ItemClass temp = inventory.selectedItem;
         yield return new WaitForSeconds(temp.cooldown);
         temp.canUse = true;
+    }
+
+    public void UseAbility() // For melee weapons only
+    {
+        MeleeClass temp = inventory.selectedItem as MeleeClass;
+        temp.UseAbility(this);
+        temp.canUseAbility = false;
+        StartCoroutine(ResetAbilityCooldown());
+    }
+
+    IEnumerator ResetAbilityCooldown() // For melee weapons only
+    {
+        MeleeClass temp = inventory.selectedItem as MeleeClass;
+        yield return new WaitForSeconds(temp.abilityCooldown);
+        temp.canUseAbility = true;
     }
 
     IEnumerator MeleeAttack()

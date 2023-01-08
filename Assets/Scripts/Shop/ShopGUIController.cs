@@ -60,11 +60,23 @@ public class ShopGUIController : MonoBehaviour
 
     public void BuyItem(ItemClass item)
     {
-        if (!(PlayerController.money - price < 0))
+        if (!(PlayerController.money - price < 0)) // If player has enough  money
         {
-            inventory.Add(item, 1);
-            PlayerController.money -= price;
-            PlayerGUIController.RefreshMoney();
+            if (!(inventory.Contains(item) == null)) // If player already has the item in inventory
+            {
+                if (item.isStackable) // If the item is stackable then buy the item
+                {
+                    inventory.Add(item, 1);
+                    PlayerController.money -= price;
+                    PlayerGUIController.RefreshMoney();
+                }
+            }
+            else
+            {
+                inventory.Add(item, 1);
+                PlayerController.money -= price;
+                PlayerGUIController.RefreshMoney();
+            }
         }
     }
 }

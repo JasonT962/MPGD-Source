@@ -7,8 +7,13 @@ public class MeleeClass : ItemClass
 {
     [Header("Melee")]
     public MeleeType meleetype;
+    public float damage;
     public float animationLength;
     public bool isAttacking = false;
+
+    [Header("Ability")]
+    public float abilityCooldown;
+    public bool canUseAbility = true;
 
     public enum MeleeType
     {
@@ -19,6 +24,11 @@ public class MeleeClass : ItemClass
     public override void Use(PlayerController player)
     {
 
+    }
+
+    public virtual void UseAbility(PlayerController player)
+    {
+        
     }
 
     public override MeleeClass getMelee() { return this; }

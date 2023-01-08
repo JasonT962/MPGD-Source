@@ -19,6 +19,6 @@ MonoBehaviour:
   cooldown: 0.1
   canUse: 1
   guntype: 0
-  damage: 10
+  damage: 5
   fullAuto: 1
   hitEffectPrefab: {fileID: 613433886817584985, guid: 2d2efc6f29337034198492ea2d1d7a5d, type: 3}

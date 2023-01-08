@@ -1361,7 +1361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5399681995356204073, guid: b2b1a1716934cb7409c9aef127591db9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5399681995356204074, guid: b2b1a1716934cb7409c9aef127591db9, type: 3}
       propertyPath: m_SortingOrder
@@ -1870,7 +1870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9009556467047129111, guid: 1802a74f884bae54c9e4d543f66b9be0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9009556467469521609, guid: 1802a74f884bae54c9e4d543f66b9be0, type: 3}
       propertyPath: m_Pivot.x
@@ -2303,7 +2303,7 @@ PrefabInstance:
     - target: {fileID: 8525295035828223779, guid: 2fbf8764fcd503b45b1649a190df295c, type: 3}
       propertyPath: startingItems.Array.data[3].item
       value: 
-      objectReference: {fileID: 11400000, guid: 50f081a340d0b8f4fba012988c2fc5de, type: 2}
+      objectReference: {fileID: 11400000, guid: e3ad2d33f97efd94b9380a663c29ade5, type: 2}
     - target: {fileID: 8525295035828223779, guid: 2fbf8764fcd503b45b1649a190df295c, type: 3}
       propertyPath: startingItems.Array.data[4].item
       value: 

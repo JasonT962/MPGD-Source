@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public InventoryManager inventory;
+    private Animator animator;
 
     // Used for showing items in player hand
     public GameObject itemHandle;
@@ -15,13 +16,20 @@ public class PlayerController : MonoBehaviour
 
     public float maxHealth = 100f;
     public float health = 100f;
-    public float maxHunger = 100f;
-    public float hunger = 100f;
+    
+    public static int money = 0;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
 
     private void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        money = 0;
     }
 
     // Update is called once per frame
@@ -29,7 +37,7 @@ public class PlayerController : MonoBehaviour
     {
         refreshItemHandle();
 
-        if (inventory.inventoryOpen == false)
+        if (inventory.inventoryOpen == false & Cursor.visible == false & Cursor.lockState == CursorLockMode.Locked)
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -41,27 +49,6 @@ public class PlayerController : MonoBehaviour
         }
 
         // Update values over time
-        if (hunger >= 50) // If hunger >= 50, increase health by 1 every second
-        {
-            health += Time.deltaTime * 1f;
-        }
-
-        if (hunger > 0)
-        {
-            hunger -= Time.deltaTime * 0.166f;
-        }
-
-        if (hunger > 100)
-        {
-            hunger = 100;
-        }
-
-        if (hunger <= 0)
-        {
-            hunger = 0;
-            health -= Time.deltaTime * 1f;
-        }
-
         if (health > 100)
         {
             health = 100;
@@ -73,15 +60,34 @@ public class PlayerController : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene(2);
         }
+
+        // Tab key lets you use the mouse
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            if (Cursor.visible == false & Cursor.lockState == CursorLockMode.Locked)
+            { 
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else
+            {
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+        }
     }
 
-    void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter(Collision other)
     {
-
-        if (other.gameObject.tag == "Enemy") {
-            health = health - 5;
+        if (other.gameObject.tag == "Enemy")
+        {
+            TakeDamage(5);
         }
+    }
 
+    void TakeDamage(int damage)
+    {
+        health = health - damage;
     }
 
     public void refreshItemHandle()
@@ -124,6 +130,7 @@ public class PlayerController : MonoBehaviour
         if (inventory.selectedItem is MeleeClass) // For melee hitbox activation
         {
             StartCoroutine(MeleeAttack());
+            animator.SetTrigger("MeleeAttack");
         }
     }
 

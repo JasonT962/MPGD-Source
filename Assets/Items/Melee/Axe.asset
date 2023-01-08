@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   icon: {fileID: 0}
-  model: {fileID: 0}
+  model: {fileID: 4885853683277073620, guid: 470ce236b80b67f4ea0385e6ae13c562, type: 3}
   isStackable: 0
-  cooldown: 0
+  cooldown: 1.5
   canUse: 1
   meleetype: 0
-  damage: 0
+  damage: 30
   animationLength: 1.3
   isAttacking: 0
   abilityCooldown: 0

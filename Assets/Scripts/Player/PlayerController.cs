@@ -83,6 +83,8 @@ public class PlayerController : MonoBehaviour
         }
 
         // Update values over time
+        health += 1 * Time.deltaTime;
+
         if (health > 100)
         {
             health = 100;

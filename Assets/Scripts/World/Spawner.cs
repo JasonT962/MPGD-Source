@@ -7,22 +7,27 @@ public class Spawner : MonoBehaviour
     [SerializeField] GameObject bigZombie;
     [SerializeField] GameObject medZombie;
     [SerializeField] GameObject fastZombie;
+    [SerializeField] GameObject kingZombie;
 
-    [SerializeField] GameObject ZombieList;
+    [SerializeField] GameObject zombieContainer;
 
     public void Spawn(string zombieType)
     {
         if (zombieType == "big")
         {
-            Instantiate(bigZombie, transform.position, transform.rotation, ZombieList.transform);
+            Instantiate(bigZombie, transform.position, transform.rotation, zombieContainer.transform);
         }
         else if (zombieType == "med")
         {
-            Instantiate(medZombie, transform.position, transform.rotation, ZombieList.transform);
+            Instantiate(medZombie, transform.position, transform.rotation, zombieContainer.transform);
         }
         else if (zombieType == "fast")
         {
-            Instantiate(fastZombie, transform.position, transform.rotation, ZombieList.transform);
+            Instantiate(fastZombie, transform.position, transform.rotation, zombieContainer.transform);
+        }
+        else if (zombieType == "king")
+        {
+            Instantiate(kingZombie, transform.position, transform.rotation, zombieContainer.transform);
         }
         else
         {

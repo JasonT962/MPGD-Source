@@ -48,6 +48,8 @@ MonoBehaviour:
   bigZombie: {fileID: 7515950981099451162, guid: 1fe13929e769440a8bbe8b810b572228, type: 3}
   medZombie: {fileID: 8155548233689328772, guid: 6ff64adf8e9434c27894d3edb2af3810, type: 3}
   fastZombie: {fileID: 6745989362803590315, guid: ddfdc4076c61e40edaaf18c5481ea338, type: 3}
+  kingZombie: {fileID: 7515950981099451162, guid: ff131cb791fa2c54e97912bf90479802, type: 3}
+  zombieContainer: {fileID: 0}
 --- !u!1 &1912267780237458515
 GameObject:
   m_ObjectHideFlags: 0

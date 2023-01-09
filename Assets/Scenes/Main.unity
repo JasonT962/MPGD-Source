@@ -172,6 +172,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4204536268122046793, guid: 3b4d4444f48526c4689b7aa97790ed57, type: 3}
   m_PrefabInstance: {fileID: 1357357815}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &303552685 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4204536268122046795, guid: 3b4d4444f48526c4689b7aa97790ed57, type: 3}
+  m_PrefabInstance: {fileID: 1357357815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303552684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41306b14b4f9cf14696a8f3366a2776d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &346533534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -248,6 +259,14 @@ PrefabInstance:
       propertyPath: spawner4
       value: 
       objectReference: {fileID: 1038078226}
+    - target: {fileID: 8618836576834387891, guid: 08be58d92519c414987395e8c8c43909, type: 3}
+      propertyPath: announcement
+      value: 
+      objectReference: {fileID: 303552685}
+    - target: {fileID: 8618836576834387891, guid: 08be58d92519c414987395e8c8c43909, type: 3}
+      propertyPath: zombieContainer
+      value: 
+      objectReference: {fileID: 2016819913}
     - target: {fileID: 8618836576834387891, guid: 08be58d92519c414987395e8c8c43909, type: 3}
       propertyPath: globalAnnouncement
       value: 
@@ -603,8 +622,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788309888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 300, y: 1, z: 300}
+  m_LocalPosition: {x: 0, y: -10, z: 0}
+  m_LocalScale: {x: 300, y: 20, z: 300}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 259067190}
@@ -838,6 +857,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3353538011522664655, guid: 50fd2816f9adb3a48ae78092ffbc05b2, type: 3}
       propertyPath: ZombieList
+      value: 
+      objectReference: {fileID: 2016819913}
+    - target: {fileID: 3353538011522664655, guid: 50fd2816f9adb3a48ae78092ffbc05b2, type: 3}
+      propertyPath: zombieContainer
       value: 
       objectReference: {fileID: 2016819913}
     m_RemovedComponents: []
@@ -1512,7 +1535,7 @@ PrefabInstance:
     - target: {fileID: 8525295035828223779, guid: 2fbf8764fcd503b45b1649a190df295c, type: 3}
       propertyPath: startingItems.Array.data[3].item
       value: 
-      objectReference: {fileID: 11400000, guid: 10172335d9274e24da9131b964b51f8c, type: 2}
+      objectReference: {fileID: 11400000, guid: 2e81e11766e4f824d85dc873472b1eae, type: 2}
     - target: {fileID: 8525295035828223779, guid: 2fbf8764fcd503b45b1649a190df295c, type: 3}
       propertyPath: startingItems.Array.data[4].item
       value: 
@@ -1808,6 +1831,10 @@ PrefabInstance:
       propertyPath: ZombieList
       value: 
       objectReference: {fileID: 2016819913}
+    - target: {fileID: 3353538011522664655, guid: 50fd2816f9adb3a48ae78092ffbc05b2, type: 3}
+      propertyPath: zombieContainer
+      value: 
+      objectReference: {fileID: 2016819913}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 50fd2816f9adb3a48ae78092ffbc05b2, type: 3}
@@ -1885,6 +1912,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3353538011522664655, guid: 50fd2816f9adb3a48ae78092ffbc05b2, type: 3}
       propertyPath: ZombieList
+      value: 
+      objectReference: {fileID: 2016819913}
+    - target: {fileID: 3353538011522664655, guid: 50fd2816f9adb3a48ae78092ffbc05b2, type: 3}
+      propertyPath: zombieContainer
       value: 
       objectReference: {fileID: 2016819913}
     m_RemovedComponents: []
@@ -2017,6 +2048,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3353538011522664655, guid: 50fd2816f9adb3a48ae78092ffbc05b2, type: 3}
       propertyPath: ZombieList
+      value: 
+      objectReference: {fileID: 2016819913}
+    - target: {fileID: 3353538011522664655, guid: 50fd2816f9adb3a48ae78092ffbc05b2, type: 3}
+      propertyPath: zombieContainer
       value: 
       objectReference: {fileID: 2016819913}
     m_RemovedComponents: []

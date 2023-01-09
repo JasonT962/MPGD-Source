@@ -9,4 +9,19 @@ public class StartMenu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void PlayTutorial()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void PlayCredits()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void PlayStartMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
